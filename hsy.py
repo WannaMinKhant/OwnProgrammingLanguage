@@ -1,7 +1,7 @@
 import core
 
 while True:
-    text = input('hsy > ')
+    text = input('hsy-> ')
     result, error = core.run(text)
     
     if error : print(error.as_string())
